@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lj"
+    android:orientation="vertical"
+  
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <LinearLayout
+        android:id="@+id/llo"
+        android:background="#ffffff"
+         android:layout_width="fill_parent"
+            android:orientation="horizontal"
+    android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/pencilbutton"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@drawable/pencilcustom"
+           android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/brushbutton"
+            android:layout_width="10dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:background="@drawable/brushcustom"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+           
+        />
+
+        <Button
+            android:id="@+id/eraserbutton"
+            android:layout_width="10dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+        android:layout_gravity="center"
+            android:background="@drawable/eraserscustom" />
+
+        <Button
+            android:id="@+id/colourbutton"
+            android:layout_width="10dp"
+            android:layout_weight="2"
+			android:layout_gravity="center"
+			android:layout_marginLeft="25dp"
+			android:layout_marginBottom="5dp"
+            android:background="@drawable/colourcustom"
+            android:layout_height="40dp"
+           />
+        
+    </LinearLayout>
+<ImageView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/bigbar"
+    
+    
+    />
+   
+    
+        <LinearLayout   
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/ll"
+ 
+    android:orientation="vertical">
+
+      
+        
+    </LinearLayout>
+
+</LinearLayout>
